@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "aifitness",
+    "slug": "aifitnessapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "port": 57469
+    },
+	"ios": {
+      "bundleIdentifier": "com.ahn.aifitness",
+      "buildNumber": "1.0.0",
+	  "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ahn.aifitness",
+      "versionCode": 1
+    }
+  }
+}
