@@ -17,12 +17,12 @@
       "**/*"
     ],
     "packagerOpts": {
-      "port": 57469
+      "port": 59689
     },
-	"ios": {
+    "ios": {
       "bundleIdentifier": "com.ahn.aifitness",
       "buildNumber": "1.0.0",
-	  "supportsTablet": true
+      "supportsTablet": true
     },
     "android": {
       "package": "com.ahn.aifitness",
