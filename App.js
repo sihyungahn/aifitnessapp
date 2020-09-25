@@ -10,9 +10,6 @@ async function cameraStoragePermission(){
 		}
 }
 
-componentDidMount(){
-	this.cameraStoragePermission;
-}
 
 import * as React from 'react';
 import { WebView } from 'react-native-webview';
