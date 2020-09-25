@@ -17,7 +17,7 @@
       "**/*"
     ],
     "packagerOpts": {
-      "port": 59689
+      "port": 51318
     },
     "ios": {
       "bundleIdentifier": "com.ahn.aifitness",
@@ -26,7 +26,11 @@
     },
     "android": {
       "package": "com.ahn.aifitness",
-      "versionCode": 1
+      "versionCode": 1,
+      "permissions": [
+        "camera",
+        "READ_EXTERNAL_STORAGE"
+      ]
     }
   }
 }
