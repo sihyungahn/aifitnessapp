@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {WebView} from 'reacr-native-webview';
+import {WebView} from 'react-native-webview';
 
 export default class App extends React.Component {
 	render() {
