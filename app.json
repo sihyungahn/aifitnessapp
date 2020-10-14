@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "aifitness",
+    "name": "Aifitness",
     "slug": "aifitnessapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,7 +17,7 @@
       "**/*"
     ],
     "packagerOpts": {
-      "port": 51318
+      "port": 57536
     },
     "ios": {
       "bundleIdentifier": "com.ahn.aifitness",
