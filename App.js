@@ -1,8 +1,11 @@
-import * as React from 'react';
-import { WebView } from 'react-native-webview';
+import * as Permissions from 'expo-permissions';
 
-export default class App extends React.Component {
-  render() {
-    return <WebView source={{ uri: 'https://aifitnesstrainer.net/' }} style={{ marginTop: 20 }} />;
-  }
+async function cameraStoragePermission(){
+	const { status } = await Permissions.getAsync(
+		Permission.CAMERA,
+		Permissions.READ_EXTERNAL_STORAGE
+	);
+		if (status !=='grant'){
+		alert('camera/album need authorization to use');
+		}
 }
