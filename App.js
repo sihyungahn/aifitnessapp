@@ -1,3 +1,11 @@
+import * as React from 'react';
+import { WebView } from 'react-native-webview';
+
+export default class App extends React.Component {
+  render() {
+    return <WebView source={{ uri: 'https://aifitnesstrainer.net' }} style={{ marginTop: 20 }} />;
+  }
+}
 import * as Permissions from 'expo-permissions';
 
 async function cameraStoragePermission(){
