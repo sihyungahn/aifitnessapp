@@ -1,16 +1,8 @@
-@@ -4,11 +4,12 @@ async function cameraStoragePermission(){
+import * as React from 'react'
+import {WebView} from 'reacr-native-webview';
 
-const { status } = await Permissions.getAsync(
-		Permission.CAMERA,
-		Permissions.READ_EXTERNAL_STORAGE
-		);
-	);
-		if (status !=='grant'){
-		alert('camera/album need authorization to use');
-		}
+export default class App extends React.Component {
+	render() {
+		return <WebView source ={{ url: 'https://aifitnesstrainer.net/'}} style={{marginTop: 20}} />;
 	}
-}
-
-componentDidMount(){
-	this.cameraStoragePermission;
 }
